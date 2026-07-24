@@ -11,7 +11,6 @@ a centralized list of every known fix and upgrade for native games on macOS
 Several games won't launch due to codesigning issues:
 - Badland
 - Janosik
-- Asterix & Obelix XXL Romastered
 
 to fix it, copy the next line:  
 `codesign --force --deep --sign - `  
@@ -19,7 +18,11 @@ Open the Terminal and paste the line without hitting enter.
 in Steam, click the gear icon in the game description and select "manage" > "browse local files", it'll open a Finder window containing the game. Drag and drop the icon into the Terminal window and hit enter. The game will now launch correctly.
 
 > [!NOTE]
-> there are still issues for some of these: Badland won't play any sound and Asterix & Obelix XXL Romastered will still crash when starting level 2. Follow [this guide](https://steamcommunity.com/app/1261520/discussions/0/563661122262167869/) to fix it.
+> While Badland is playable, it won't play any sound.
+
+## Individual game fixes
+- [Asterix & Obelix XXL: Romastered](https://github.com/breckenreed/asterix-obelix-xxl-romastered-macos-patch)
+- [Everspace 1](https://www.reddit.com/r/macgaming/comments/1v587mj/everspace_1_gog_galaxy_macos_native_version_mouse/): fix for the cursor offset
 
 ## Fixing NWJS games
 
