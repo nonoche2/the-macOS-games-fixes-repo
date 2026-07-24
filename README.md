@@ -38,7 +38,7 @@ in Steam, click the gear icon in the game description and select "manage" > "bro
 > If you get an error at launch "Required value 'name' is missing or invalid.", right-click the app and select "Display contents", navigate to Contents/Resources/app.nw and find a file named package.json. Right click it and select "open with TextEdit", add a name between the quotes after `"name" :` and save file. The game should now run.
 
 > [!NOTE]
-> Incidentally, this will upgrade Intel 32 & 64 bit apps to Apple Silicon. You can also port Windows games made with NWJS to macOS that way.
+> Incidentally, this will upgrade Intel 32 & 64 bit apps to Apple Silicon. You can also port Windows games made with NWJS to macOS that way (drop the package.nw file inside Contents/Resources/ instead of the app.nw folder).
 
 ## Upgrading game controller support
 
