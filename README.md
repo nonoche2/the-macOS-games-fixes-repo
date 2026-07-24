@@ -23,6 +23,8 @@ in Steam, click the gear icon in the game description and select "manage" > "bro
 ## Individual game fixes
 - [Asterix & Obelix XXL: Romastered](https://github.com/breckenreed/asterix-obelix-xxl-romastered-macos-patch)
 - [Everspace 1](https://www.reddit.com/r/macgaming/comments/1v587mj/everspace_1_gog_galaxy_macos_native_version_mouse/): fix for the cursor offset
+- Omori: [patch for Intel Macs](https://github.com/DaCUtePotato/omori-apple-intel) [patch for Apple Silicon Macs](https://github.com/SnowpMakes/omori-apple-silicon)
+- [Black Ops 3](https://github.com/InvoxiPlayGames/BO3MacFix)
 
 ## Fixing NWJS games
 
