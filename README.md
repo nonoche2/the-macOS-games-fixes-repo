@@ -34,7 +34,8 @@ in Steam, click the gear icon in the game description and select "manage" > "bro
 8. drag and drop the NWJS.app icon on the Terminal window and hit enter
 9. the game should now work. You can rename NWJS.app to the original name of the game and replace it if you want to launch it from Steam.  
 
-Incidentally, this will upgrade Intel 32 & 64 bit apps to Apple Silicon. You can also port Windows games made with NWJS to macOS that way.
+> [!NOTE]
+> Incidentally, this will upgrade Intel 32 & 64 bit apps to Apple Silicon. You can also port Windows games made with NWJS to macOS that way.
 
 ## Upgrading game controller support
 
