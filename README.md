@@ -11,6 +11,7 @@ a centralized list of every known fix and upgrade for native games on macOS
 Several games won't launch due to codesigning issues:
 - Badland
 - Janosik
+- [Brütal Legend](https://www.doublefine.com/games/support/brutal-legend-app-is-damaged-macos)
 
 to fix it, copy the next line:  
 `codesign --force --deep --sign - `  
