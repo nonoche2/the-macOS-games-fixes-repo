@@ -26,6 +26,7 @@ in Steam, click the gear icon in the game description and select "manage" > "bro
 - [Everspace 1](https://www.reddit.com/r/macgaming/comments/1v587mj/everspace_1_gog_galaxy_macos_native_version_mouse/): fix for the cursor offset
 - Omori: [patch for Intel Macs](https://github.com/DaCUtePotato/omori-apple-intel) [patch for Apple Silicon Macs](https://github.com/SnowpMakes/omori-apple-silicon)
 - [Black Ops 3](https://github.com/InvoxiPlayGames/BO3MacFix)
+- [enable Vulkan for Euro Truck Simulator 2 and American Truck Simulator](https://www.reddit.com/r/macgaming/comments/1nyf4tn/ets2_ats_on_apple_silicon_mac_moltenvk_say/) (much faster than legacy OpenGL)
 
 ## Fixing NWJS games
 
