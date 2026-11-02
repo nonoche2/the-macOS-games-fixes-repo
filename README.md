@@ -14,7 +14,7 @@ Several games won't launch due to codesigning issues:
 - [Brütal Legend](https://www.doublefine.com/games/support/brutal-legend-app-is-damaged-macos)
 
 to fix it, first make sure to have xcode tools installed. In the terminal, type this:   
-`xcode-select --install`.  
+`xcode-select --install`  
 then copy the next line:  
 `codesign --force --deep --sign - `  
 paste the line without hitting enter.  
