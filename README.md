@@ -9,13 +9,15 @@ a centralized list of every known fix and upgrade for native games on macOS
 ## Fixing codesigning issues
 
 Several games won't launch due to codesigning issues:
-- Badland
+- [Badland](https://steamcommunity.com/app/269670/discussions/0/570427687922934944/)
 - Janosik
 - [Brütal Legend](https://www.doublefine.com/games/support/brutal-legend-app-is-damaged-macos)
 
-to fix it, copy the next line:  
+to fix it, first make sure to have xcode tools installed. In the terminal, type this:   
+`xcode-select --install`.  
+then copy the next line:  
 `codesign --force --deep --sign - `  
-Open the Terminal and paste the line without hitting enter.  
+paste the line without hitting enter.  
 in Steam, click the gear icon in the game description and select "manage" > "browse local files", it'll open a Finder window containing the game. Drag and drop the icon into the Terminal window and hit enter. The game will now launch correctly.
 
 > [!NOTE]
