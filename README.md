@@ -20,9 +20,6 @@ then copy the next line:
 paste the line without hitting enter.  
 in Steam, click the gear icon in the game description and select "manage" > "browse local files", it'll open a Finder window containing the game. Drag and drop the icon into the Terminal window and hit enter. The game will now launch correctly.
 
-> [!NOTE]
-> While Badland is playable, it won't play any sound.
-
 ## Individual game fixes
 - [Asterix & Obelix XXL: Romastered](https://github.com/breckenreed/asterix-obelix-xxl-romastered-macos-patch)
 - [Everspace 1](https://www.reddit.com/r/macgaming/comments/1v587mj/everspace_1_gog_galaxy_macos_native_version_mouse/): fix for the cursor offset
